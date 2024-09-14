@@ -1,0 +1,665 @@
+CommandLine,Company,ComputerName,CreationUtcTime,CurrentDirectory,Description,Details,EventCode,EventType,FileVersion,Hashes,Image,IntegrityLevel,Keywords,LogName,LogonGuid,LogonId,Message,OpCode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessId,Product,RecordNumber,RuleName,Sid,SidType,SourceName,TargetFilename,TargetObject,TaskCategory,TerminalSessionId,Type,User,UtcTime,"_raw","_time",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group"
+,,"Andrew-11795566",,,,"(Empty)",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-Ver
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\BinProductVersion
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7246,"InvDB-Ver","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\BinProductVersion","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:53:54.829","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7246
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-Ver
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\BinProductVersion
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"08/20/2024 09:37:48",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-CompileTimeClaim
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\LinkDate
+Details: 08/20/2024 09:37:48
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7245,"InvDB-CompileTimeClaim","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\LinkDate","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:53:54.829","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7245
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-CompileTimeClaim
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\LinkDate
+Details: 08/20/2024 09:37:48
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"(Empty)",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-Pub
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\Publisher
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7244,"InvDB-Pub","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\Publisher","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:53:54.829","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7244
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-Pub
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\Publisher
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"c:\users\andrew_11795566\desktop\exes\itc590-three executable-assignment item 2 (1)\itc590-three executable-assignment item 2\itc590-script 2 v1-2024.exe",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-Path
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\LowerCaseLongPath
+Details: c:\users\andrew_11795566\desktop\exes\itc590-three executable-assignment item 2 (1)\itc590-three executable-assignment item 2\itc590-script 2 v1-2024.exe
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7243,"InvDB-Path","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\LowerCaseLongPath","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:53:54.829","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7243
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-Path
+EventType: SetValue
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 2 |b2d0c834b7ec7c19\LowerCaseLongPath
+Details: c:\users\andrew_11795566\desktop\exes\itc590-three executable-assignment item 2 (1)\itc590-three executable-assignment item 2\itc590-script 2 v1-2024.exe
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,,5,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Process terminated:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-ef91-66e3-7a05-000000000c00}",5092,,7242,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process terminated (rule: ProcessTerminate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:54.829","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=5
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7242
+Keywords=None
+TaskCategory=Process terminated (rule: ProcessTerminate)
+OpCode=Info
+Message=Process terminated:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.829
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,21,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,,5,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Process terminated:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.501
+ProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ProcessId: 532
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-ef91-66e3-7b05-000000000c00}",532,,7241,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process terminated (rule: ProcessTerminate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:54.501","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=5
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7241
+Keywords=None
+TaskCategory=Process terminated (rule: ProcessTerminate)
+OpCode=Info
+Message=Process terminated:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.501
+ProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ProcessId: 532
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,21,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"reg  add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f","Microsoft Corporation","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","Registry Console Tool",,1,4,"10.0.19041.1 (WinBuild.160101.0800)","MD5=227F63E1D9008B36BDBCC4B397780BE4,SHA256=C0E25B1F9B22DE445298C1E96DDFCEAD265CA030FA6626F61A4A4786CC4A3B7D,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC","C:\Windows\System32\reg.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.465
+ProcessGuid: {af67959a-ef92-66e3-8105-000000000c00}
+ProcessId: 2060
+Image: C:\Windows\System32\reg.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: reg  add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=227F63E1D9008B36BDBCC4B397780BE4,SHA256=C0E25B1F9B22DE445298C1E96DDFCEAD265CA030FA6626F61A4A4786CC4A3B7D,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC
+ParentProcessGuid: {af67959a-ef92-66e3-7f05-000000000c00}
+ParentProcessId: 6456
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"reg.exe","C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f","C:\Windows\System32\cmd.exe","{af67959a-ef92-66e3-7f05-000000000c00}",6456,"ANDREW-11795566\Andrew_11795566","{af67959a-ef92-66e3-8105-000000000c00}",2060,"Microsoft® Windows® Operating System",7240,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:54.465","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7240
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.465
+ProcessGuid: {af67959a-ef92-66e3-8105-000000000c00}
+ProcessId: 2060
+Image: C:\Windows\System32\reg.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: reg  add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=227F63E1D9008B36BDBCC4B397780BE4,SHA256=C0E25B1F9B22DE445298C1E96DDFCEAD265CA030FA6626F61A4A4786CC4A3B7D,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC
+ParentProcessGuid: {af67959a-ef92-66e3-7f05-000000000c00}
+ParentProcessId: 6456
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f","Microsoft Corporation","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","Windows Command Processor",,1,4,"10.0.19041.4355 (WinBuild.160101.0800)","MD5=2B40C98ED0F7A1D3B091A3E8353132DC,SHA256=BADF4752413CB0CBDC03FB95820CA167F0CDC63B597CCDB5EF43111180E088B0,IMPHASH=272245E2988E1E430500B852C4FB5E18","C:\Windows\System32\cmd.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.344
+ProcessGuid: {af67959a-ef92-66e3-7f05-000000000c00}
+ProcessId: 6456
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.4355 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2B40C98ED0F7A1D3B091A3E8353132DC,SHA256=BADF4752413CB0CBDC03FB95820CA167F0CDC63B597CCDB5EF43111180E088B0,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ParentProcessId: 532
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"Cmd.Exe","""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe","{af67959a-ef91-66e3-7b05-000000000c00}",532,"ANDREW-11795566\Andrew_11795566","{af67959a-ef92-66e3-7f05-000000000c00}",6456,"Microsoft® Windows® Operating System",7239,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:54.344","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7239
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.344
+ProcessGuid: {af67959a-ef92-66e3-7f05-000000000c00}
+ProcessId: 6456
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.4355 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Modified Data-ITC590 2024"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2B40C98ED0F7A1D3B091A3E8353132DC,SHA256=BADF4752413CB0CBDC03FB95820CA167F0CDC63B597CCDB5EF43111180E088B0,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ParentProcessId: 532
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"reg  add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f","Microsoft Corporation","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","Registry Console Tool",,1,4,"10.0.19041.1 (WinBuild.160101.0800)","MD5=227F63E1D9008B36BDBCC4B397780BE4,SHA256=C0E25B1F9B22DE445298C1E96DDFCEAD265CA030FA6626F61A4A4786CC4A3B7D,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC","C:\Windows\System32\reg.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.297
+ProcessGuid: {af67959a-ef92-66e3-7e05-000000000c00}
+ProcessId: 5236
+Image: C:\Windows\System32\reg.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: reg  add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=227F63E1D9008B36BDBCC4B397780BE4,SHA256=C0E25B1F9B22DE445298C1E96DDFCEAD265CA030FA6626F61A4A4786CC4A3B7D,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC
+ParentProcessGuid: {af67959a-ef92-66e3-7c05-000000000c00}
+ParentProcessId: 4716
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"reg.exe","C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f","C:\Windows\System32\cmd.exe","{af67959a-ef92-66e3-7c05-000000000c00}",4716,"ANDREW-11795566\Andrew_11795566","{af67959a-ef92-66e3-7e05-000000000c00}",5236,"Microsoft® Windows® Operating System",7238,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:54.297","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7238
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.297
+ProcessGuid: {af67959a-ef92-66e3-7e05-000000000c00}
+ProcessId: 5236
+Image: C:\Windows\System32\reg.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: reg  add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=227F63E1D9008B36BDBCC4B397780BE4,SHA256=C0E25B1F9B22DE445298C1E96DDFCEAD265CA030FA6626F61A4A4786CC4A3B7D,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC
+ParentProcessGuid: {af67959a-ef92-66e3-7c05-000000000c00}
+ParentProcessId: 4716
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f","Microsoft Corporation","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","Windows Command Processor",,1,4,"10.0.19041.4355 (WinBuild.160101.0800)","MD5=2B40C98ED0F7A1D3B091A3E8353132DC,SHA256=BADF4752413CB0CBDC03FB95820CA167F0CDC63B597CCDB5EF43111180E088B0,IMPHASH=272245E2988E1E430500B852C4FB5E18","C:\Windows\System32\cmd.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.094
+ProcessGuid: {af67959a-ef92-66e3-7c05-000000000c00}
+ProcessId: 4716
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.4355 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2B40C98ED0F7A1D3B091A3E8353132DC,SHA256=BADF4752413CB0CBDC03FB95820CA167F0CDC63B597CCDB5EF43111180E088B0,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ParentProcessId: 532
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"Cmd.Exe","""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe","{af67959a-ef91-66e3-7b05-000000000c00}",532,"ANDREW-11795566\Andrew_11795566","{af67959a-ef92-66e3-7c05-000000000c00}",4716,"Microsoft® Windows® Operating System",7237,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:54.094","09/13/2024 05:53:54 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7237
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:54.094
+ProcessGuid: {af67959a-ef92-66e3-7c05-000000000c00}
+ProcessId: 4716
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.4355 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c reg add ""HKCU\Software\TestSoftware"" /v TestValue /d ""Test Data"" /f
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2B40C98ED0F7A1D3B091A3E8353132DC,SHA256=BADF4752413CB0CBDC03FB95820CA167F0CDC63B597CCDB5EF43111180E088B0,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ParentProcessId: 532
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:54.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""","-","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","-",,1,4,"-","MD5=4AC074744836B3742200B03807655BD9,SHA256=918BF06D20F2240938FC8A940A4B019CC573CEE762EE169CE3E2FBA155D5796B,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:53.992
+ProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ProcessId: 532
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4AC074744836B3742200B03807655BD9,SHA256=918BF06D20F2240938FC8A940A4B019CC573CEE762EE169CE3E2FBA155D5796B,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ParentProcessId: 5092
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"-","""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe","{af67959a-ef91-66e3-7a05-000000000c00}",5092,"ANDREW-11795566\Andrew_11795566","{af67959a-ef91-66e3-7b05-000000000c00}",532,"-",7236,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:53.992","09/13/2024 05:53:53 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7236
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:53.992
+ProcessGuid: {af67959a-ef91-66e3-7b05-000000000c00}
+ProcessId: 532
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4AC074744836B3742200B03807655BD9,SHA256=918BF06D20F2240938FC8A940A4B019CC573CEE762EE169CE3E2FBA155D5796B,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ParentProcessId: 5092
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:53.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566","2024-09-13 07:53:53.876",,,,11,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:53:53.876
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\python312.dll
+CreationUtcTime: 2024-09-13 07:53:53.876
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-ef91-66e3-7a05-000000000c00}",5092,,7235,DLL,"S-1-5-18",0,"Microsoft-Windows-Sysmon","C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\python312.dll",,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:53.876","09/13/2024 05:53:53 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7235
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:53:53.876
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\python312.dll
+CreationUtcTime: 2024-09-13 07:53:53.876
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:53.000+1000",,"ANDREW-11795566",sysmon,23,"//_::_=--/===-==---==--====__(:_)==_:\r:_\r:_--_::.\r","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566","2024-09-13 07:53:53.813",,,,11,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:53:53.813
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\libcrypto-3.dll
+CreationUtcTime: 2024-09-13 07:53:53.813
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-ef91-66e3-7a05-000000000c00}",5092,,7234,DLL,"S-1-5-18",0,"Microsoft-Windows-Sysmon","C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\libcrypto-3.dll",,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:53.813","09/13/2024 05:53:53 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7234
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:53:53.813
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\libcrypto-3.dll
+CreationUtcTime: 2024-09-13 07:53:53.813
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:53.000+1000",,"ANDREW-11795566",sysmon,23,"//_::_=--/===-==---==--====__(:_)==_:\r:_\r:_--_::.\r","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566","2024-09-13 07:53:53.798",,,,11,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:53:53.798
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\VCRUNTIME140.dll
+CreationUtcTime: 2024-09-13 07:53:53.798
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-ef91-66e3-7a05-000000000c00}",5092,,7233,DLL,"S-1-5-18",0,"Microsoft-Windows-Sysmon","C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\VCRUNTIME140.dll",,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:53.798","09/13/2024 05:53:53 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7233
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:53:53.798
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI50922\VCRUNTIME140.dll
+CreationUtcTime: 2024-09-13 07:53:53.798
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:53.000+1000",,"ANDREW-11795566",sysmon,23,"//_::_=--/===-==---==--====__(:_)==_:\r:_\r:_--_::.\r","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""","-","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","-",,1,4,"-","MD5=4AC074744836B3742200B03807655BD9,SHA256=918BF06D20F2240938FC8A940A4B019CC573CEE762EE169CE3E2FBA155D5796B,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:53.683
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4AC074744836B3742200B03807655BD9,SHA256=918BF06D20F2240938FC8A940A4B019CC573CEE762EE169CE3E2FBA155D5796B,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-d0a6-66e3-5102-000000000c00}
+ParentProcessId: 5708
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"-","""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe""","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","{af67959a-d0a6-66e3-5102-000000000c00}",5708,"ANDREW-11795566\Andrew_11795566","{af67959a-ef91-66e3-7a05-000000000c00}",5092,"-",7232,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:53:53.683","09/13/2024 05:53:53 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7232
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:53:53.683
+ProcessGuid: {af67959a-ef91-66e3-7a05-000000000c00}
+ProcessId: 5092
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 2 V1-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4AC074744836B3742200B03807655BD9,SHA256=918BF06D20F2240938FC8A940A4B019CC573CEE762EE169CE3E2FBA155D5796B,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-d0a6-66e3-5102-000000000c00}
+ParentProcessId: 5708
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:53:53.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",

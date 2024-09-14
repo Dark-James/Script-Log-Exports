@@ -1,0 +1,733 @@
+CommandLine,Company,ComputerName,CreationUtcTime,CurrentDirectory,Description,Details,EventCode,EventType,FileVersion,Hashes,Image,IntegrityLevel,Keywords,LogName,LogonGuid,LogonId,Message,OpCode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessId,Product,RecordNumber,RuleName,Sid,SidType,SourceName,TargetFilename,TargetObject,TaskCategory,TerminalSessionId,Type,User,UtcTime,"_raw","_time",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group"
+"""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2","-","Andrew-11795566",,"C:\Windows\system32\","-",,1,4,"-","MD5=FCB0604926A81A7A7746B7066B286DC8,SHA256=211CC17F7C47B5CCF2B980A2091D392C73C9ABADDB1061CE419C5357DD5545C2,IMPHASH=44A0061B15025B4FBD3C0D7BCF7E24E9","C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe",System,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c61d-66e3-e703-000000000000}",0x3E7,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:26.871
+ProcessGuid: {af67959a-f02a-66e3-9505-000000000c00}
+ProcessId: 4008
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=FCB0604926A81A7A7746B7066B286DC8,SHA256=211CC17F7C47B5CCF2B980A2091D392C73C9ABADDB1061CE419C5357DD5545C2,IMPHASH=44A0061B15025B4FBD3C0D7BCF7E24E9
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM",Info,"-","""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service","C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe","{af67959a-c620-66e3-2900-000000000c00}",2416,"NT AUTHORITY\SYSTEM","{af67959a-f02a-66e3-9505-000000000c00}",4008,"-",7273,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:56:26.871","09/13/2024 05:56:26 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7273
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:26.871
+ProcessGuid: {af67959a-f02a-66e3-9505-000000000c00}
+ProcessId: 4008
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=FCB0604926A81A7A7746B7066B286DC8,SHA256=211CC17F7C47B5CCF2B980A2091D392C73C9ABADDB1061CE419C5357DD5545C2,IMPHASH=44A0061B15025B4FBD3C0D7BCF7E24E9
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM","2024-09-13T17:56:26.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""","Splunk Inc.","Andrew-11795566",,"C:\Windows\system32\","Registry monitor",,1,4,"9.3.0","MD5=F1B469DA7803AFE04870B4871CC0F695,SHA256=8198111A755A6918B5559B548574061A41EF5AACAE706DD154936CFEC6E6432E,IMPHASH=AEB21630574EF01A3A5116CB58C5AC56","C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe",System,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c61d-66e3-e703-000000000000}",0x3E7,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:26.107
+ProcessGuid: {af67959a-f02a-66e3-9405-000000000c00}
+ProcessId: 3140
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 9.3.0
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=F1B469DA7803AFE04870B4871CC0F695,SHA256=8198111A755A6918B5559B548574061A41EF5AACAE706DD154936CFEC6E6432E,IMPHASH=AEB21630574EF01A3A5116CB58C5AC56
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM",Info,"splunk-regmon.exe","""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service","C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe","{af67959a-c620-66e3-2900-000000000c00}",2416,"NT AUTHORITY\SYSTEM","{af67959a-f02a-66e3-9405-000000000c00}",3140,"splunk Application",7272,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:56:26.107","09/13/2024 05:56:26 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7272
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:26.107
+ProcessGuid: {af67959a-f02a-66e3-9405-000000000c00}
+ProcessId: 3140
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 9.3.0
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=F1B469DA7803AFE04870B4871CC0F695,SHA256=8198111A755A6918B5559B548574061A41EF5AACAE706DD154936CFEC6E6432E,IMPHASH=AEB21630574EF01A3A5116CB58C5AC56
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM","2024-09-13T17:56:26.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""","-","Andrew-11795566",,"C:\Windows\system32\","-",,1,4,"-","MD5=FCB0604926A81A7A7746B7066B286DC8,SHA256=211CC17F7C47B5CCF2B980A2091D392C73C9ABADDB1061CE419C5357DD5545C2,IMPHASH=44A0061B15025B4FBD3C0D7BCF7E24E9","C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe",System,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c61d-66e3-e703-000000000000}",0x3E7,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:25.090
+ProcessGuid: {af67959a-f029-66e3-9305-000000000c00}
+ProcessId: 4900
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=FCB0604926A81A7A7746B7066B286DC8,SHA256=211CC17F7C47B5CCF2B980A2091D392C73C9ABADDB1061CE419C5357DD5545C2,IMPHASH=44A0061B15025B4FBD3C0D7BCF7E24E9
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM",Info,"-","""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service","C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe","{af67959a-c620-66e3-2900-000000000c00}",2416,"NT AUTHORITY\SYSTEM","{af67959a-f029-66e3-9305-000000000c00}",4900,"-",7271,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:56:25.090","09/13/2024 05:56:25 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7271
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:25.090
+ProcessGuid: {af67959a-f029-66e3-9305-000000000c00}
+ProcessId: 4900
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=FCB0604926A81A7A7746B7066B286DC8,SHA256=211CC17F7C47B5CCF2B980A2091D392C73C9ABADDB1061CE419C5357DD5545C2,IMPHASH=44A0061B15025B4FBD3C0D7BCF7E24E9
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM","2024-09-13T17:56:25.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""","Splunk Inc.","Andrew-11795566",,"C:\Windows\system32\","Network monitor",,1,4,"9.3.0","MD5=E30CB50BE9EC2FB49497F136DC71448F,SHA256=7835B39374396001E12637509AE0D22FCB7E2A89F6143DED03186B500276E537,IMPHASH=D30C8E545B1C24DE4E0DC100EF70F2D0","C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe",System,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c61d-66e3-e703-000000000000}",0x3E7,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:24.046
+ProcessGuid: {af67959a-f028-66e3-9205-000000000c00}
+ProcessId: 2584
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 9.3.0
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=E30CB50BE9EC2FB49497F136DC71448F,SHA256=7835B39374396001E12637509AE0D22FCB7E2A89F6143DED03186B500276E537,IMPHASH=D30C8E545B1C24DE4E0DC100EF70F2D0
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM",Info,"splunk-netmon.exe","""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service","C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe","{af67959a-c620-66e3-2900-000000000c00}",2416,"NT AUTHORITY\SYSTEM","{af67959a-f028-66e3-9205-000000000c00}",2584,"Splunk Application",7270,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:56:24.046","09/13/2024 05:56:24 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7270
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:24.046
+ProcessGuid: {af67959a-f028-66e3-9205-000000000c00}
+ProcessId: 2584
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 9.3.0
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=E30CB50BE9EC2FB49497F136DC71448F,SHA256=7835B39374396001E12637509AE0D22FCB7E2A89F6143DED03186B500276E537,IMPHASH=D30C8E545B1C24DE4E0DC100EF70F2D0
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM","2024-09-13T17:56:24.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""","Splunk Inc.","Andrew-11795566",,"C:\Windows\system32\","Active Directory monitor",,1,4,"9.3.0","MD5=DBFD61F6BB7B564B6D2E8C43BDCFA36B,SHA256=CE85AA468CE40D8463CE0B8E5320637BD87C9A0702F8B0BD35A40F93D146E80B,IMPHASH=623F6CD6D62EAC500E2DDE74F881F752","C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe",System,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c61d-66e3-e703-000000000000}",0x3E7,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:22.950
+ProcessGuid: {af67959a-f026-66e3-9105-000000000c00}
+ProcessId: 1516
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 9.3.0
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=DBFD61F6BB7B564B6D2E8C43BDCFA36B,SHA256=CE85AA468CE40D8463CE0B8E5320637BD87C9A0702F8B0BD35A40F93D146E80B,IMPHASH=623F6CD6D62EAC500E2DDE74F881F752
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM",Info,"splunk-admon.exe","""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service","C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe","{af67959a-c620-66e3-2900-000000000c00}",2416,"NT AUTHORITY\SYSTEM","{af67959a-f026-66e3-9105-000000000c00}",1516,"splunk Application",7269,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:56:22.950","09/13/2024 05:56:22 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7269
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:22.950
+ProcessGuid: {af67959a-f026-66e3-9105-000000000c00}
+ProcessId: 1516
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 9.3.0
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=DBFD61F6BB7B564B6D2E8C43BDCFA36B,SHA256=CE85AA468CE40D8463CE0B8E5320637BD87C9A0702F8B0BD35A40F93D146E80B,IMPHASH=623F6CD6D62EAC500E2DDE74F881F752
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM","2024-09-13T17:56:22.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""","Windows (R) Win 7 DDK provider","Andrew-11795566",,"C:\Windows\system32\","SplunkMonNoHandle Control Program",,1,4,"10.0.10011.16384","MD5=509F459BAA92E3C3D2B8AF2ABEE90640,SHA256=12576AFDC3B84FA47162F3FE31DC926B5B1F82EC1B4A4721A656274275CB7B20,IMPHASH=AA49C0FBBD591DE7932A03B49B088142","C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe",System,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c61d-66e3-e703-000000000000}",0x3E7,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:21.964
+ProcessGuid: {af67959a-f025-66e3-9005-000000000c00}
+ProcessId: 220
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=509F459BAA92E3C3D2B8AF2ABEE90640,SHA256=12576AFDC3B84FA47162F3FE31DC926B5B1F82EC1B4A4721A656274275CB7B20,IMPHASH=AA49C0FBBD591DE7932A03B49B088142
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM",Info,"SplunkMonNoHandle.exe","""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service","C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe","{af67959a-c620-66e3-2900-000000000c00}",2416,"NT AUTHORITY\SYSTEM","{af67959a-f025-66e3-9005-000000000c00}",220,"Windows (R) Win 7 DDK driver",7268,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:56:21.964","09/13/2024 05:56:21 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7268
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:56:21.964
+ProcessGuid: {af67959a-f025-66e3-9005-000000000c00}
+ProcessId: 220
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {af67959a-c61d-66e3-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=509F459BAA92E3C3D2B8AF2ABEE90640,SHA256=12576AFDC3B84FA47162F3FE31DC926B5B1F82EC1B4A4721A656274275CB7B20,IMPHASH=AA49C0FBBD591DE7932A03B49B088142
+ParentProcessGuid: {af67959a-c620-66e3-2900-000000000c00}
+ParentProcessId: 2416
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT AUTHORITY\SYSTEM","2024-09-13T17:56:21.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"(Empty)",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-Ver
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\BinProductVersion
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7267,"InvDB-Ver","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\BinProductVersion","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:55:58.704","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7267
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-Ver
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\BinProductVersion
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"08/20/2024 12:21:51",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-CompileTimeClaim
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\LinkDate
+Details: 08/20/2024 12:21:51
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7266,"InvDB-CompileTimeClaim","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\LinkDate","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:55:58.704","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7266
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-CompileTimeClaim
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\LinkDate
+Details: 08/20/2024 12:21:51
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"(Empty)",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-Pub
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\Publisher
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7265,"InvDB-Pub","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\Publisher","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:55:58.704","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7265
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-Pub
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\Publisher
+Details: (Empty)
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566",,,,"c:\users\andrew_11795566\desktop\exes\itc590-three executable-assignment item 2 (1)\itc590-three executable-assignment item 2\itc590-script 3 v2-p-2024.exe",13,"4
+SetValue",,,"C:\Windows\System32\svchost.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: InvDB-Path
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\LowerCaseLongPath
+Details: c:\users\andrew_11795566\desktop\exes\itc590-three executable-assignment item 2 (1)\itc590-three executable-assignment item 2\itc590-script 3 v2-p-2024.exe
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{af67959a-c61f-66e3-2700-000000000c00}",2280,,7264,"InvDB-Path","S-1-5-18",0,"Microsoft-Windows-Sysmon",,"\REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\LowerCaseLongPath","Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-09-13 07:55:58.704","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7264
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: InvDB-Path
+EventType: SetValue
+UtcTime: 2024-09-13 07:55:58.704
+ProcessGuid: {af67959a-c61f-66e3-2700-000000000c00}
+ProcessId: 2280
+Image: C:\Windows\System32\svchost.exe
+TargetObject: \REGISTRY\A\{ef729a98-5dc3-ad03-afe1-c1db5084a79d}\Root\InventoryApplicationFile\itc590-script 3 |58ce60f60dbf5bb3\LowerCaseLongPath
+Details: c:\users\andrew_11795566\desktop\exes\itc590-three executable-assignment item 2 (1)\itc590-three executable-assignment item 2\itc590-script 3 v2-p-2024.exe
+User: NT AUTHORITY\SYSTEM","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,24,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""","-","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","-",,1,4,"-","MD5=AE50E6BAB627B7A39408186E75821EA3,SHA256=CA7788BEA6909AAB6F62B8218025F2B6050C27FFAC885E457C60FDC57B2C2D67,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:55:58.204
+ProcessGuid: {af67959a-f00e-66e3-8f05-000000000c00}
+ProcessId: 116
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=AE50E6BAB627B7A39408186E75821EA3,SHA256=CA7788BEA6909AAB6F62B8218025F2B6050C27FFAC885E457C60FDC57B2C2D67,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ParentProcessId: 188
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"-","""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe","{af67959a-f00e-66e3-8e05-000000000c00}",188,"ANDREW-11795566\Andrew_11795566","{af67959a-f00e-66e3-8f05-000000000c00}",116,"-",7263,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:55:58.204","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7263
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:55:58.204
+ProcessGuid: {af67959a-f00e-66e3-8f05-000000000c00}
+ProcessId: 116
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=AE50E6BAB627B7A39408186E75821EA3,SHA256=CA7788BEA6909AAB6F62B8218025F2B6050C27FFAC885E457C60FDC57B2C2D67,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ParentProcessId: 188
+ParentImage: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+ParentCommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566","2024-09-13 07:55:58.126",,,,11,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:55:58.126
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\python312.dll
+CreationUtcTime: 2024-09-13 07:55:58.126
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-f00e-66e3-8e05-000000000c00}",188,,7262,DLL,"S-1-5-18",0,"Microsoft-Windows-Sysmon","C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\python312.dll",,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:55:58.126","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7262
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:55:58.126
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\python312.dll
+CreationUtcTime: 2024-09-13 07:55:58.126
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,23,"//_::_=--/===-==---==--====__(:_)==_:\r:_\r:_--_::.\r","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566","2024-09-13 07:55:58.079",,,,11,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:55:58.079
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\libcrypto-3.dll
+CreationUtcTime: 2024-09-13 07:55:58.079
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-f00e-66e3-8e05-000000000c00}",188,,7261,DLL,"S-1-5-18",0,"Microsoft-Windows-Sysmon","C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\libcrypto-3.dll",,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:55:58.079","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7261
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:55:58.079
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\libcrypto-3.dll
+CreationUtcTime: 2024-09-13 07:55:58.079
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,23,"//_::_=--/===-==---==--====__(:_)==_:\r:_\r:_--_::.\r","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+,,"Andrew-11795566","2024-09-13 07:55:58.064",,,,11,4,,,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe",,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:55:58.064
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\VCRUNTIME140.dll
+CreationUtcTime: 2024-09-13 07:55:58.064
+User: ANDREW-11795566\Andrew_11795566",Info,,,,,,,"{af67959a-f00e-66e3-8e05-000000000c00}",188,,7260,DLL,"S-1-5-18",0,"Microsoft-Windows-Sysmon","C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\VCRUNTIME140.dll",,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:55:58.064","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7260
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-09-13 07:55:58.064
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+TargetFilename: C:\Users\ANDREW~1\AppData\Local\Temp\_MEI1882\VCRUNTIME140.dll
+CreationUtcTime: 2024-09-13 07:55:58.064
+User: ANDREW-11795566\Andrew_11795566","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,23,"//_::_=--/===-==---==--====__(:_)==_:\r:_\r:_--_::.\r","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
+"""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""","-","Andrew-11795566",,"C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\","-",,1,4,"-","MD5=AE50E6BAB627B7A39408186E75821EA3,SHA256=CA7788BEA6909AAB6F62B8218025F2B6050C27FFAC885E457C60FDC57B2C2D67,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A","C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe",Medium,None,"Microsoft-Windows-Sysmon/Operational","{af67959a-c641-66e3-a091-0c0000000000}",0xC91A0,"Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:55:58.020
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=AE50E6BAB627B7A39408186E75821EA3,SHA256=CA7788BEA6909AAB6F62B8218025F2B6050C27FFAC885E457C60FDC57B2C2D67,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-d0a6-66e3-5102-000000000c00}
+ParentProcessId: 5708
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: ANDREW-11795566\Andrew_11795566",Info,"-","""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe""","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","{af67959a-d0a6-66e3-5102-000000000c00}",5708,"ANDREW-11795566\Andrew_11795566","{af67959a-f00e-66e3-8e05-000000000c00}",188,"-",7259,"-","S-1-5-18",0,"Microsoft-Windows-Sysmon",,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+ANDREW-11795566\Andrew_11795566","2024-09-13 07:55:58.020","09/13/2024 05:55:58 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=Andrew-11795566
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=7259
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-09-13 07:55:58.020
+ProcessGuid: {af67959a-f00e-66e3-8e05-000000000c00}
+ProcessId: 188
+Image: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\ITC590-Script 3 V2-P-2024.exe""
+CurrentDirectory: C:\Users\Andrew_11795566\Desktop\Exes\ITC590-three executable-Assignment Item 2 (1)\ITC590-three executable-Assignment Item 2\
+User: ANDREW-11795566\Andrew_11795566
+LogonGuid: {af67959a-c641-66e3-a091-0c0000000000}
+LogonId: 0xC91A0
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=AE50E6BAB627B7A39408186E75821EA3,SHA256=CA7788BEA6909AAB6F62B8218025F2B6050C27FFAC885E457C60FDC57B2C2D67,IMPHASH=72C4E339B7AF8AB1ED2EB3821C98713A
+ParentProcessGuid: {af67959a-d0a6-66e3-5102-000000000c00}
+ParentProcessId: 5708
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: ANDREW-11795566\Andrew_11795566","2024-09-13T17:55:58.000+1000",,"ANDREW-11795566",sysmon,38,"//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational",XmlWinEventLog,"andrew-11795566",
